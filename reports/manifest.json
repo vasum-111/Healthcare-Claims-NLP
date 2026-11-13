@@ -1,0 +1,29 @@
+{
+  "packaged_on": "2026-11-13",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "dependencies": {
+    "fastapi": "0.162.5",
+    "uvicorn": "0.54.0",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "pytest": "9.2.0",
+    "httpx": "0.28.1",
+    "torch": "2.15.0+cpu",
+    "transformers": "5.22.2"
+  },
+  "source_and_data_sha256": {
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/api.py": "eb3cf865a293d4e540aac73fc26d8538f1abbb4968fa96c0f72a42cec70e5f3f",
+    "src/bert.py": "9b47f8b7f48e8a12a7728aca96561a0510f3c46dff4abb4f05d3a11673faefa7",
+    "src/data.py": "d7aad4ac516db2b87c1a8569a4c68570ec5ad3f6af4e4c2f90cdf69b6a3725fa",
+    "src/entities.py": "68023db3dc882952ce1f541c7624413f753519debe67aa9dafd2ef13bac3207e",
+    "src/evaluate.py": "db1f677b979671f1d5849f30fcab2c7e9e844b8f1b8539e032ab9c7e0fdb17fd",
+    "src/model.py": "53324f909393e18a0cf46a9fdbab48dc2801d7a31c3ec8c421d0bc3302c27503",
+    "data/messages.csv": "fae1e97090eb4759443b0841906a75031a2bbd1db3b660ee7ffce8c49ffe06f8",
+    "tests/test_bert.py": "190837a4e81b33387b19c4e9362acc16e7208704b670d35147951838a5103d34",
+    "tests/test_pipeline.py": "8f9515b332aa4e7bb6acaabdebb791c5da597892b90ac6f27e6b148567f93fbb"
+  },
+  "scope": "Delivered source manifest; no remote commit/deployment implied."
+}

@@ -1,0 +1,1267 @@
+{
+  "dataset": "synthetic templates; small correlated sample; not clinical validation",
+  "dataset_sha256": "fae1e97090eb4759443b0841906a75031a2bbd1db3b660ee7ffce8c49ffe06f8",
+  "counts": {
+    "train": 270,
+    "validation": 54,
+    "test": 108
+  },
+  "split": "template families disjoint: 15 train / 3 validation / 6 test",
+  "label_order": [
+    "billing",
+    "clinical",
+    "eligibility"
+  ],
+  "baseline": {
+    "classification_report": {
+      "billing": {
+        "precision": 0.972972972972973,
+        "recall": 1.0,
+        "f1-score": 0.9863013698630136,
+        "support": 36.0
+      },
+      "clinical": {
+        "precision": 1.0,
+        "recall": 0.9722222222222222,
+        "f1-score": 0.9859154929577465,
+        "support": 36.0
+      },
+      "eligibility": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 36.0
+      },
+      "accuracy": 0.9907407407407407,
+      "macro avg": {
+        "precision": 0.990990990990991,
+        "recall": 0.9907407407407408,
+        "f1-score": 0.9907389542735867,
+        "support": 108.0
+      },
+      "weighted avg": {
+        "precision": 0.9909909909909911,
+        "recall": 0.9907407407407407,
+        "f1-score": 0.9907389542735866,
+        "support": 108.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        36,
+        0,
+        0
+      ],
+      [
+        1,
+        35,
+        0
+      ],
+      [
+        0,
+        0,
+        36
+      ]
+    ],
+    "macro_f1_family_bootstrap_95ci": [
+      0.9814671814671815,
+      1.0
+    ]
+  },
+  "bert": {
+    "classification_report": {
+      "billing": {
+        "precision": 0.47368421052631576,
+        "recall": 0.75,
+        "f1-score": 0.5806451612903226,
+        "support": 36.0
+      },
+      "clinical": {
+        "precision": 0.35294117647058826,
+        "recall": 0.16666666666666666,
+        "f1-score": 0.22641509433962265,
+        "support": 36.0
+      },
+      "eligibility": {
+        "precision": 1.0,
+        "recall": 0.9444444444444444,
+        "f1-score": 0.9714285714285714,
+        "support": 36.0
+      },
+      "accuracy": 0.6203703703703703,
+      "macro avg": {
+        "precision": 0.608875128998968,
+        "recall": 0.6203703703703703,
+        "f1-score": 0.5928296090195055,
+        "support": 108.0
+      },
+      "weighted avg": {
+        "precision": 0.608875128998968,
+        "recall": 0.6203703703703703,
+        "f1-score": 0.5928296090195055,
+        "support": 108.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        27,
+        9,
+        0
+      ],
+      [
+        30,
+        6,
+        0
+      ],
+      [
+        0,
+        2,
+        34
+      ]
+    ],
+    "macro_f1_family_bootstrap_95ci": [
+      0.45714285714285713,
+      0.7338095238095238
+    ],
+    "configuration": {
+      "epochs": 35,
+      "selected_epoch": 4,
+      "parameters": 90755,
+      "vocab_size": 172,
+      "initialization": "random, no pretrained weights",
+      "tokenizer": "train-only lowercase regex vocabulary",
+      "history": [
+        {
+          "epoch": 1,
+          "validation_loss": 1.0988657474517822
+        },
+        {
+          "epoch": 2,
+          "validation_loss": 1.097206950187683
+        },
+        {
+          "epoch": 3,
+          "validation_loss": 1.0968670845031738
+        },
+        {
+          "epoch": 4,
+          "validation_loss": 1.0712580680847168
+        },
+        {
+          "epoch": 5,
+          "validation_loss": 1.134462833404541
+        },
+        {
+          "epoch": 6,
+          "validation_loss": 1.1882741451263428
+        },
+        {
+          "epoch": 7,
+          "validation_loss": 1.3962539434432983
+        },
+        {
+          "epoch": 8,
+          "validation_loss": 1.7614439725875854
+        },
+        {
+          "epoch": 9,
+          "validation_loss": 2.183194160461426
+        },
+        {
+          "epoch": 10,
+          "validation_loss": 2.533672571182251
+        },
+        {
+          "epoch": 11,
+          "validation_loss": 2.778949499130249
+        },
+        {
+          "epoch": 12,
+          "validation_loss": 2.944801092147827
+        },
+        {
+          "epoch": 13,
+          "validation_loss": 3.082223653793335
+        },
+        {
+          "epoch": 14,
+          "validation_loss": 3.1860082149505615
+        },
+        {
+          "epoch": 15,
+          "validation_loss": 3.27285099029541
+        },
+        {
+          "epoch": 16,
+          "validation_loss": 3.351440191268921
+        },
+        {
+          "epoch": 17,
+          "validation_loss": 3.426480531692505
+        },
+        {
+          "epoch": 18,
+          "validation_loss": 3.4909822940826416
+        },
+        {
+          "epoch": 19,
+          "validation_loss": 3.547800302505493
+        },
+        {
+          "epoch": 20,
+          "validation_loss": 3.6009457111358643
+        },
+        {
+          "epoch": 21,
+          "validation_loss": 3.6545350551605225
+        },
+        {
+          "epoch": 22,
+          "validation_loss": 3.705838918685913
+        },
+        {
+          "epoch": 23,
+          "validation_loss": 3.7520947456359863
+        },
+        {
+          "epoch": 24,
+          "validation_loss": 3.7954771518707275
+        },
+        {
+          "epoch": 25,
+          "validation_loss": 3.8369970321655273
+        },
+        {
+          "epoch": 26,
+          "validation_loss": 3.878683090209961
+        },
+        {
+          "epoch": 27,
+          "validation_loss": 3.919583559036255
+        },
+        {
+          "epoch": 28,
+          "validation_loss": 3.9594571590423584
+        },
+        {
+          "epoch": 29,
+          "validation_loss": 4.0011067390441895
+        },
+        {
+          "epoch": 30,
+          "validation_loss": 4.038895130157471
+        },
+        {
+          "epoch": 31,
+          "validation_loss": 4.072820663452148
+        },
+        {
+          "epoch": 32,
+          "validation_loss": 4.103521347045898
+        },
+        {
+          "epoch": 33,
+          "validation_loss": 4.137042045593262
+        },
+        {
+          "epoch": 34,
+          "validation_loss": 4.170877456665039
+        },
+        {
+          "epoch": 35,
+          "validation_loss": 4.203873157501221
+        }
+      ]
+    }
+  },
+  "paired_comparison": {
+    "baseline_only_correct": 40,
+    "bert_only_correct": 0,
+    "mcnemar_exact_p": 1.8189894035458565e-12,
+    "caution": "Message-level McNemar assumes independence; template variants violate it. Descriptive only; no clinical superiority claim.",
+    "family_sign_permutation_p": 0.125,
+    "family_accuracy_deltas_bert_minus_baseline": [
+      -0.5,
+      0.0,
+      -0.6666666666666666,
+      -0.9444444444444444,
+      -0.1111111111111111,
+      0.0
+    ],
+    "family_test_caution": "Only six held-out template families; low power and synthetic selection bias."
+  },
+  "predictions": [
+    {
+      "id": "clinical-6-0",
+      "text": "Question: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-1",
+      "text": "Question: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-2",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-3",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-4",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-5",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-6",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-7",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-8",
+      "text": "Hello, The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-9",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-10",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-11",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-12",
+      "text": "Hello, The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-13",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-14",
+      "text": "The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-6-15",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-16",
+      "text": "Please help: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "clinical-6-17",
+      "text": "Question: The hospital discharge note recommends a follow-up care visit.",
+      "label": "clinical",
+      "family": "clinical-6",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-0",
+      "text": "Question: My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-1",
+      "text": "Question: My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-2",
+      "text": "Hello, My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-3",
+      "text": "My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-4",
+      "text": "My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-5",
+      "text": "Please help: My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-6",
+      "text": "Hello, My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-7",
+      "text": "My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-8",
+      "text": "Question: My physician wants medical approval for treatment therapy.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-9",
+      "text": "Please help: My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-10",
+      "text": "Please help: My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-11",
+      "text": "Please help: My physician wants medical approval for treatment procedure.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-12",
+      "text": "Question: My physician wants medical approval for treatment therapy.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-13",
+      "text": "Please help: My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-14",
+      "text": "My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-15",
+      "text": "Question: My physician wants medical approval for treatment medication.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-16",
+      "text": "Question: My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "clinical-7-17",
+      "text": "My physician wants medical approval for treatment assessment.",
+      "label": "clinical",
+      "family": "clinical-7",
+      "split": "test",
+      "baseline_prediction": "clinical",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-0",
+      "text": "Question: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-1",
+      "text": "Hello, The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-2",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-3",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-4",
+      "text": "Hello, The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-5",
+      "text": "The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-6",
+      "text": "Hello, The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-7",
+      "text": "The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-8",
+      "text": "Question: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-9",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-10",
+      "text": "Question: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-11",
+      "text": "Question: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-12",
+      "text": "Hello, The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-6-13",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-14",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-15",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-16",
+      "text": "Please help: The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "billing-6-17",
+      "text": "Hello, The balance due on my invoice looks incorrect after payment.",
+      "label": "billing",
+      "family": "billing-6",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-0",
+      "text": "Hello, Please correct the billing charge for claim CLM-75410 on 2026-09-13.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-1",
+      "text": "Please correct the billing charge for claim CLM-38124 on 2026-10-10.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-2",
+      "text": "Please correct the billing charge for claim CLM-19706 on 2026-08-06.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-3",
+      "text": "Hello, Please correct the billing charge for claim CLM-97535 on 2026-06-23.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-4",
+      "text": "Question: Please correct the billing charge for claim CLM-93584 on 2026-03-26.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-5",
+      "text": "Please correct the billing charge for claim CLM-28202 on 2026-04-26.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-6",
+      "text": "Hello, Please correct the billing charge for claim CLM-71263 on 2026-09-05.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-7",
+      "text": "Please correct the billing charge for claim CLM-72739 on 2026-09-14.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-8",
+      "text": "Please correct the billing charge for claim CLM-94192 on 2026-02-15.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-9",
+      "text": "Hello, Please correct the billing charge for claim CLM-26912 on 2026-07-17.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-10",
+      "text": "Question: Please correct the billing charge for claim CLM-49862 on 2026-03-06.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-11",
+      "text": "Question: Please correct the billing charge for claim CLM-20336 on 2026-05-07.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-12",
+      "text": "Please help: Please correct the billing charge for claim CLM-90534 on 2026-09-03.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-13",
+      "text": "Hello, Please correct the billing charge for claim CLM-83874 on 2026-01-27.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-14",
+      "text": "Please correct the billing charge for claim CLM-95344 on 2026-04-25.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-15",
+      "text": "Please help: Please correct the billing charge for claim CLM-94136 on 2026-05-16.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-16",
+      "text": "Please help: Please correct the billing charge for claim CLM-19564 on 2026-12-02.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "billing-7-17",
+      "text": "Please help: Please correct the billing charge for claim CLM-70875 on 2026-04-11.",
+      "label": "billing",
+      "family": "billing-7",
+      "split": "test",
+      "baseline_prediction": "billing",
+      "bert_prediction": "billing"
+    },
+    {
+      "id": "eligibility-6-0",
+      "text": "Please help: Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "eligibility-6-1",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-2",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-3",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-4",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-5",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-6",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-7",
+      "text": "Hello, Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-8",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-9",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-10",
+      "text": "Please help: Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "clinical"
+    },
+    {
+      "id": "eligibility-6-11",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-12",
+      "text": "Hello, Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-13",
+      "text": "Hello, Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-14",
+      "text": "Question: Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-15",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-16",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-6-17",
+      "text": "Does my dependent qualify under the current policy enrollment?",
+      "label": "eligibility",
+      "family": "eligibility-6",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-0",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-1",
+      "text": "Hello, Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-2",
+      "text": "Please help: Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-3",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-4",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-5",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-6",
+      "text": "Hello, Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-7",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-8",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-9",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-10",
+      "text": "Please help: Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-11",
+      "text": "Question: Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-12",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-13",
+      "text": "Please help: Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-14",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-15",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-16",
+      "text": "Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    },
+    {
+      "id": "eligibility-7-17",
+      "text": "Please help: Please confirm the termination date for my health plan membership.",
+      "label": "eligibility",
+      "family": "eligibility-7",
+      "split": "test",
+      "baseline_prediction": "eligibility",
+      "bert_prediction": "eligibility"
+    }
+  ]
+}

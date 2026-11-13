@@ -1,0 +1,433 @@
+id,text,label,family,split
+clinical-0-0,"Hello, My doctor prescribed therapy and I need a clinical review.",clinical,clinical-0,train
+clinical-0-1,Please help: My doctor prescribed therapy and I need a clinical review.,clinical,clinical-0,train
+clinical-0-2,My doctor prescribed procedure and I need a clinical review.,clinical,clinical-0,train
+clinical-0-3,My doctor prescribed procedure and I need a clinical review.,clinical,clinical-0,train
+clinical-0-4,"Hello, My doctor prescribed medication and I need a clinical review.",clinical,clinical-0,train
+clinical-0-5,"Hello, My doctor prescribed assessment and I need a clinical review.",clinical,clinical-0,train
+clinical-0-6,Question: My doctor prescribed assessment and I need a clinical review.,clinical,clinical-0,train
+clinical-0-7,Please help: My doctor prescribed medication and I need a clinical review.,clinical,clinical-0,train
+clinical-0-8,My doctor prescribed medication and I need a clinical review.,clinical,clinical-0,train
+clinical-0-9,Question: My doctor prescribed medication and I need a clinical review.,clinical,clinical-0,train
+clinical-0-10,Please help: My doctor prescribed therapy and I need a clinical review.,clinical,clinical-0,train
+clinical-0-11,Please help: My doctor prescribed assessment and I need a clinical review.,clinical,clinical-0,train
+clinical-0-12,Question: My doctor prescribed medication and I need a clinical review.,clinical,clinical-0,train
+clinical-0-13,My doctor prescribed therapy and I need a clinical review.,clinical,clinical-0,train
+clinical-0-14,Question: My doctor prescribed assessment and I need a clinical review.,clinical,clinical-0,train
+clinical-0-15,My doctor prescribed assessment and I need a clinical review.,clinical,clinical-0,train
+clinical-0-16,My doctor prescribed therapy and I need a clinical review.,clinical,clinical-0,train
+clinical-0-17,Question: My doctor prescribed therapy and I need a clinical review.,clinical,clinical-0,train
+clinical-1-0,Question: Please review treatment for diagnosis J45.909 before my appointment.,clinical,clinical-1,train
+clinical-1-1,"Hello, Please review treatment for diagnosis E11.9 before my appointment.",clinical,clinical-1,train
+clinical-1-2,Question: Please review treatment for diagnosis J45.909 before my appointment.,clinical,clinical-1,train
+clinical-1-3,"Hello, Please review treatment for diagnosis E11.9 before my appointment.",clinical,clinical-1,train
+clinical-1-4,Question: Please review treatment for diagnosis I10 before my appointment.,clinical,clinical-1,train
+clinical-1-5,Please review treatment for diagnosis E11.9 before my appointment.,clinical,clinical-1,train
+clinical-1-6,Please help: Please review treatment for diagnosis J45.909 before my appointment.,clinical,clinical-1,train
+clinical-1-7,Please help: Please review treatment for diagnosis J45.909 before my appointment.,clinical,clinical-1,train
+clinical-1-8,"Hello, Please review treatment for diagnosis I10 before my appointment.",clinical,clinical-1,train
+clinical-1-9,Please help: Please review treatment for diagnosis E11.9 before my appointment.,clinical,clinical-1,train
+clinical-1-10,"Hello, Please review treatment for diagnosis E11.9 before my appointment.",clinical,clinical-1,train
+clinical-1-11,Please review treatment for diagnosis I10 before my appointment.,clinical,clinical-1,train
+clinical-1-12,Please help: Please review treatment for diagnosis J45.909 before my appointment.,clinical,clinical-1,train
+clinical-1-13,Please review treatment for diagnosis I10 before my appointment.,clinical,clinical-1,train
+clinical-1-14,"Hello, Please review treatment for diagnosis I10 before my appointment.",clinical,clinical-1,train
+clinical-1-15,Please help: Please review treatment for diagnosis I10 before my appointment.,clinical,clinical-1,train
+clinical-1-16,Please help: Please review treatment for diagnosis E11.9 before my appointment.,clinical,clinical-1,train
+clinical-1-17,"Hello, Please review treatment for diagnosis I10 before my appointment.",clinical,clinical-1,train
+clinical-2-0,Please help: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-1,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-2,The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-3,"Hello, The nurse asked about my symptoms and follow-up consultation.",clinical,clinical-2,train
+clinical-2-4,Please help: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-5,"Hello, The nurse asked about my symptoms and follow-up consultation.",clinical,clinical-2,train
+clinical-2-6,"Hello, The nurse asked about my symptoms and follow-up consultation.",clinical,clinical-2,train
+clinical-2-7,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-8,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-9,"Hello, The nurse asked about my symptoms and follow-up consultation.",clinical,clinical-2,train
+clinical-2-10,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-11,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-12,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-13,Please help: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-14,"Hello, The nurse asked about my symptoms and follow-up consultation.",clinical,clinical-2,train
+clinical-2-15,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-16,The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-2-17,Question: The nurse asked about my symptoms and follow-up consultation.,clinical,clinical-2,train
+clinical-3-0,"Hello, Does my treatment plan need prior clinical authorization for procedure?",clinical,clinical-3,train
+clinical-3-1,Does my treatment plan need prior clinical authorization for medication?,clinical,clinical-3,train
+clinical-3-2,Please help: Does my treatment plan need prior clinical authorization for procedure?,clinical,clinical-3,train
+clinical-3-3,"Hello, Does my treatment plan need prior clinical authorization for medication?",clinical,clinical-3,train
+clinical-3-4,Does my treatment plan need prior clinical authorization for assessment?,clinical,clinical-3,train
+clinical-3-5,Please help: Does my treatment plan need prior clinical authorization for medication?,clinical,clinical-3,train
+clinical-3-6,Does my treatment plan need prior clinical authorization for assessment?,clinical,clinical-3,train
+clinical-3-7,Question: Does my treatment plan need prior clinical authorization for medication?,clinical,clinical-3,train
+clinical-3-8,Question: Does my treatment plan need prior clinical authorization for therapy?,clinical,clinical-3,train
+clinical-3-9,Question: Does my treatment plan need prior clinical authorization for assessment?,clinical,clinical-3,train
+clinical-3-10,Please help: Does my treatment plan need prior clinical authorization for therapy?,clinical,clinical-3,train
+clinical-3-11,Question: Does my treatment plan need prior clinical authorization for medication?,clinical,clinical-3,train
+clinical-3-12,Does my treatment plan need prior clinical authorization for therapy?,clinical,clinical-3,train
+clinical-3-13,Does my treatment plan need prior clinical authorization for medication?,clinical,clinical-3,train
+clinical-3-14,Does my treatment plan need prior clinical authorization for assessment?,clinical,clinical-3,train
+clinical-3-15,Question: Does my treatment plan need prior clinical authorization for therapy?,clinical,clinical-3,train
+clinical-3-16,Does my treatment plan need prior clinical authorization for assessment?,clinical,clinical-3,train
+clinical-3-17,Question: Does my treatment plan need prior clinical authorization for procedure?,clinical,clinical-3,train
+clinical-4-0,"Hello, I need a specialist referral to discuss my diagnosis E11.9.",clinical,clinical-4,train
+clinical-4-1,I need a specialist referral to discuss my diagnosis E11.9.,clinical,clinical-4,train
+clinical-4-2,Please help: I need a specialist referral to discuss my diagnosis J45.909.,clinical,clinical-4,train
+clinical-4-3,I need a specialist referral to discuss my diagnosis E11.9.,clinical,clinical-4,train
+clinical-4-4,I need a specialist referral to discuss my diagnosis J45.909.,clinical,clinical-4,train
+clinical-4-5,I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-6,I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-7,Please help: I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-8,Please help: I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-9,I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-10,I need a specialist referral to discuss my diagnosis J45.909.,clinical,clinical-4,train
+clinical-4-11,"Hello, I need a specialist referral to discuss my diagnosis J45.909.",clinical,clinical-4,train
+clinical-4-12,Please help: I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-4-13,I need a specialist referral to discuss my diagnosis E11.9.,clinical,clinical-4,train
+clinical-4-14,"Hello, I need a specialist referral to discuss my diagnosis J45.909.",clinical,clinical-4,train
+clinical-4-15,Please help: I need a specialist referral to discuss my diagnosis J45.909.,clinical,clinical-4,train
+clinical-4-16,Please help: I need a specialist referral to discuss my diagnosis E11.9.,clinical,clinical-4,train
+clinical-4-17,I need a specialist referral to discuss my diagnosis I10.,clinical,clinical-4,train
+clinical-5-0,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-1,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-2,Please help: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-3,Question: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-4,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-5,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-6,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-7,Question: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-8,Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-9,Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-10,"Hello, Can a clinician review the medication requested by my physician?",clinical,clinical-5,validation
+clinical-5-11,Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-12,Please help: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-13,Question: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-14,Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-15,Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-16,Please help: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-5-17,Question: Can a clinician review the medication requested by my physician?,clinical,clinical-5,validation
+clinical-6-0,Question: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-1,Question: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-2,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-3,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-4,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-5,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-6,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-7,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-8,"Hello, The hospital discharge note recommends a follow-up care visit.",clinical,clinical-6,test
+clinical-6-9,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-10,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-11,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-12,"Hello, The hospital discharge note recommends a follow-up care visit.",clinical,clinical-6,test
+clinical-6-13,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-14,The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-15,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-16,Please help: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-6-17,Question: The hospital discharge note recommends a follow-up care visit.,clinical,clinical-6,test
+clinical-7-0,Question: My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-1,Question: My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-2,"Hello, My physician wants medical approval for treatment medication.",clinical,clinical-7,test
+clinical-7-3,My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-4,My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-5,Please help: My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-6,"Hello, My physician wants medical approval for treatment medication.",clinical,clinical-7,test
+clinical-7-7,My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-8,Question: My physician wants medical approval for treatment therapy.,clinical,clinical-7,test
+clinical-7-9,Please help: My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-10,Please help: My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-11,Please help: My physician wants medical approval for treatment procedure.,clinical,clinical-7,test
+clinical-7-12,Question: My physician wants medical approval for treatment therapy.,clinical,clinical-7,test
+clinical-7-13,Please help: My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-14,My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-15,Question: My physician wants medical approval for treatment medication.,clinical,clinical-7,test
+clinical-7-16,Question: My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+clinical-7-17,My physician wants medical approval for treatment assessment.,clinical,clinical-7,test
+billing-0-0,I was charged 25 dollars for claim CLM-51704; please explain the bill.,billing,billing-0,train
+billing-0-1,Question: I was charged 60 dollars for claim CLM-74923; please explain the bill.,billing,billing-0,train
+billing-0-2,Please help: I was charged 25 dollars for claim CLM-78937; please explain the bill.,billing,billing-0,train
+billing-0-3,Question: I was charged 60 dollars for claim CLM-19807; please explain the bill.,billing,billing-0,train
+billing-0-4,Question: I was charged 250 dollars for claim CLM-95175; please explain the bill.,billing,billing-0,train
+billing-0-5,"Hello, I was charged 250 dollars for claim CLM-80912; please explain the bill.",billing,billing-0,train
+billing-0-6,I was charged 120 dollars for claim CLM-39817; please explain the bill.,billing,billing-0,train
+billing-0-7,Question: I was charged 25 dollars for claim CLM-68153; please explain the bill.,billing,billing-0,train
+billing-0-8,Question: I was charged 120 dollars for claim CLM-17355; please explain the bill.,billing,billing-0,train
+billing-0-9,Please help: I was charged 60 dollars for claim CLM-79621; please explain the bill.,billing,billing-0,train
+billing-0-10,Please help: I was charged 25 dollars for claim CLM-89887; please explain the bill.,billing,billing-0,train
+billing-0-11,Question: I was charged 60 dollars for claim CLM-40433; please explain the bill.,billing,billing-0,train
+billing-0-12,Please help: I was charged 25 dollars for claim CLM-70981; please explain the bill.,billing,billing-0,train
+billing-0-13,I was charged 120 dollars for claim CLM-87014; please explain the bill.,billing,billing-0,train
+billing-0-14,I was charged 120 dollars for claim CLM-36111; please explain the bill.,billing,billing-0,train
+billing-0-15,Question: I was charged 250 dollars for claim CLM-84963; please explain the bill.,billing,billing-0,train
+billing-0-16,"Hello, I was charged 250 dollars for claim CLM-45976; please explain the bill.",billing,billing-0,train
+billing-0-17,Please help: I was charged 60 dollars for claim CLM-89569; please explain the bill.,billing,billing-0,train
+billing-1-0,"Hello, My invoice includes a duplicate charge for procedure medication.",billing,billing-1,train
+billing-1-1,Please help: My invoice includes a duplicate charge for procedure medication.,billing,billing-1,train
+billing-1-2,Please help: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-1-3,My invoice includes a duplicate charge for procedure medication.,billing,billing-1,train
+billing-1-4,Please help: My invoice includes a duplicate charge for procedure medication.,billing,billing-1,train
+billing-1-5,My invoice includes a duplicate charge for procedure procedure.,billing,billing-1,train
+billing-1-6,Question: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-1-7,My invoice includes a duplicate charge for procedure assessment.,billing,billing-1,train
+billing-1-8,"Hello, My invoice includes a duplicate charge for procedure therapy.",billing,billing-1,train
+billing-1-9,Please help: My invoice includes a duplicate charge for procedure assessment.,billing,billing-1,train
+billing-1-10,Please help: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-1-11,My invoice includes a duplicate charge for procedure procedure.,billing,billing-1,train
+billing-1-12,Question: My invoice includes a duplicate charge for procedure procedure.,billing,billing-1,train
+billing-1-13,Please help: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-1-14,"Hello, My invoice includes a duplicate charge for procedure medication.",billing,billing-1,train
+billing-1-15,Please help: My invoice includes a duplicate charge for procedure assessment.,billing,billing-1,train
+billing-1-16,Please help: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-1-17,Please help: My invoice includes a duplicate charge for procedure therapy.,billing,billing-1,train
+billing-2-0,Question: Please explain the deductible on this statement dated 2026-03-05.,billing,billing-2,train
+billing-2-1,Please help: Please explain the deductible on this statement dated 2026-01-12.,billing,billing-2,train
+billing-2-2,Please explain the deductible on this statement dated 2026-01-05.,billing,billing-2,train
+billing-2-3,Question: Please explain the deductible on this statement dated 2026-08-25.,billing,billing-2,train
+billing-2-4,Question: Please explain the deductible on this statement dated 2026-01-24.,billing,billing-2,train
+billing-2-5,Please explain the deductible on this statement dated 2026-08-28.,billing,billing-2,train
+billing-2-6,"Hello, Please explain the deductible on this statement dated 2026-12-15.",billing,billing-2,train
+billing-2-7,Question: Please explain the deductible on this statement dated 2026-03-09.,billing,billing-2,train
+billing-2-8,Please explain the deductible on this statement dated 2026-09-20.,billing,billing-2,train
+billing-2-9,Please help: Please explain the deductible on this statement dated 2026-11-25.,billing,billing-2,train
+billing-2-10,Please explain the deductible on this statement dated 2026-06-27.,billing,billing-2,train
+billing-2-11,Question: Please explain the deductible on this statement dated 2026-07-11.,billing,billing-2,train
+billing-2-12,"Hello, Please explain the deductible on this statement dated 2026-02-27.",billing,billing-2,train
+billing-2-13,"Hello, Please explain the deductible on this statement dated 2026-03-18.",billing,billing-2,train
+billing-2-14,Please explain the deductible on this statement dated 2026-06-28.,billing,billing-2,train
+billing-2-15,Please help: Please explain the deductible on this statement dated 2026-02-19.,billing,billing-2,train
+billing-2-16,Question: Please explain the deductible on this statement dated 2026-02-12.,billing,billing-2,train
+billing-2-17,"Hello, Please explain the deductible on this statement dated 2026-09-25.",billing,billing-2,train
+billing-3-0,Question: The payment for claim CLM-45818 has not appeared on my account.,billing,billing-3,train
+billing-3-1,The payment for claim CLM-33777 has not appeared on my account.,billing,billing-3,train
+billing-3-2,Please help: The payment for claim CLM-22026 has not appeared on my account.,billing,billing-3,train
+billing-3-3,Question: The payment for claim CLM-54681 has not appeared on my account.,billing,billing-3,train
+billing-3-4,"Hello, The payment for claim CLM-16895 has not appeared on my account.",billing,billing-3,train
+billing-3-5,The payment for claim CLM-96761 has not appeared on my account.,billing,billing-3,train
+billing-3-6,The payment for claim CLM-77154 has not appeared on my account.,billing,billing-3,train
+billing-3-7,"Hello, The payment for claim CLM-79066 has not appeared on my account.",billing,billing-3,train
+billing-3-8,Please help: The payment for claim CLM-11007 has not appeared on my account.,billing,billing-3,train
+billing-3-9,The payment for claim CLM-53007 has not appeared on my account.,billing,billing-3,train
+billing-3-10,Please help: The payment for claim CLM-59834 has not appeared on my account.,billing,billing-3,train
+billing-3-11,The payment for claim CLM-15544 has not appeared on my account.,billing,billing-3,train
+billing-3-12,The payment for claim CLM-85156 has not appeared on my account.,billing,billing-3,train
+billing-3-13,The payment for claim CLM-12733 has not appeared on my account.,billing,billing-3,train
+billing-3-14,The payment for claim CLM-23875 has not appeared on my account.,billing,billing-3,train
+billing-3-15,Please help: The payment for claim CLM-54500 has not appeared on my account.,billing,billing-3,train
+billing-3-16,Question: The payment for claim CLM-79547 has not appeared on my account.,billing,billing-3,train
+billing-3-17,Question: The payment for claim CLM-40968 has not appeared on my account.,billing,billing-3,train
+billing-4-0,I want to dispute the copay amount of 60 dollars.,billing,billing-4,train
+billing-4-1,Question: I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-2,Question: I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-3,Question: I want to dispute the copay amount of 25 dollars.,billing,billing-4,train
+billing-4-4,Question: I want to dispute the copay amount of 25 dollars.,billing,billing-4,train
+billing-4-5,I want to dispute the copay amount of 25 dollars.,billing,billing-4,train
+billing-4-6,Please help: I want to dispute the copay amount of 25 dollars.,billing,billing-4,train
+billing-4-7,I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-8,"Hello, I want to dispute the copay amount of 25 dollars.",billing,billing-4,train
+billing-4-9,Please help: I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-10,Question: I want to dispute the copay amount of 120 dollars.,billing,billing-4,train
+billing-4-11,I want to dispute the copay amount of 120 dollars.,billing,billing-4,train
+billing-4-12,Please help: I want to dispute the copay amount of 60 dollars.,billing,billing-4,train
+billing-4-13,"Hello, I want to dispute the copay amount of 250 dollars.",billing,billing-4,train
+billing-4-14,Please help: I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-15,Question: I want to dispute the copay amount of 250 dollars.,billing,billing-4,train
+billing-4-16,Please help: I want to dispute the copay amount of 60 dollars.,billing,billing-4,train
+billing-4-17,"Hello, I want to dispute the copay amount of 25 dollars.",billing,billing-4,train
+billing-5-0,Please help: Why was reimbursement lower than the billed amount for medication?,billing,billing-5,validation
+billing-5-1,Question: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-2,Please help: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-3,Why was reimbursement lower than the billed amount for medication?,billing,billing-5,validation
+billing-5-4,Please help: Why was reimbursement lower than the billed amount for assessment?,billing,billing-5,validation
+billing-5-5,Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-6,"Hello, Why was reimbursement lower than the billed amount for medication?",billing,billing-5,validation
+billing-5-7,Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-8,"Hello, Why was reimbursement lower than the billed amount for therapy?",billing,billing-5,validation
+billing-5-9,Question: Why was reimbursement lower than the billed amount for assessment?,billing,billing-5,validation
+billing-5-10,Question: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-11,Please help: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-12,Please help: Why was reimbursement lower than the billed amount for assessment?,billing,billing-5,validation
+billing-5-13,Question: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-14,Why was reimbursement lower than the billed amount for therapy?,billing,billing-5,validation
+billing-5-15,Please help: Why was reimbursement lower than the billed amount for therapy?,billing,billing-5,validation
+billing-5-16,Please help: Why was reimbursement lower than the billed amount for procedure?,billing,billing-5,validation
+billing-5-17,"Hello, Why was reimbursement lower than the billed amount for assessment?",billing,billing-5,validation
+billing-6-0,Question: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-1,"Hello, The balance due on my invoice looks incorrect after payment.",billing,billing-6,test
+billing-6-2,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-3,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-4,"Hello, The balance due on my invoice looks incorrect after payment.",billing,billing-6,test
+billing-6-5,The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-6,"Hello, The balance due on my invoice looks incorrect after payment.",billing,billing-6,test
+billing-6-7,The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-8,Question: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-9,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-10,Question: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-11,Question: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-12,"Hello, The balance due on my invoice looks incorrect after payment.",billing,billing-6,test
+billing-6-13,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-14,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-15,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-16,Please help: The balance due on my invoice looks incorrect after payment.,billing,billing-6,test
+billing-6-17,"Hello, The balance due on my invoice looks incorrect after payment.",billing,billing-6,test
+billing-7-0,"Hello, Please correct the billing charge for claim CLM-75410 on 2026-09-13.",billing,billing-7,test
+billing-7-1,Please correct the billing charge for claim CLM-38124 on 2026-10-10.,billing,billing-7,test
+billing-7-2,Please correct the billing charge for claim CLM-19706 on 2026-08-06.,billing,billing-7,test
+billing-7-3,"Hello, Please correct the billing charge for claim CLM-97535 on 2026-06-23.",billing,billing-7,test
+billing-7-4,Question: Please correct the billing charge for claim CLM-93584 on 2026-03-26.,billing,billing-7,test
+billing-7-5,Please correct the billing charge for claim CLM-28202 on 2026-04-26.,billing,billing-7,test
+billing-7-6,"Hello, Please correct the billing charge for claim CLM-71263 on 2026-09-05.",billing,billing-7,test
+billing-7-7,Please correct the billing charge for claim CLM-72739 on 2026-09-14.,billing,billing-7,test
+billing-7-8,Please correct the billing charge for claim CLM-94192 on 2026-02-15.,billing,billing-7,test
+billing-7-9,"Hello, Please correct the billing charge for claim CLM-26912 on 2026-07-17.",billing,billing-7,test
+billing-7-10,Question: Please correct the billing charge for claim CLM-49862 on 2026-03-06.,billing,billing-7,test
+billing-7-11,Question: Please correct the billing charge for claim CLM-20336 on 2026-05-07.,billing,billing-7,test
+billing-7-12,Please help: Please correct the billing charge for claim CLM-90534 on 2026-09-03.,billing,billing-7,test
+billing-7-13,"Hello, Please correct the billing charge for claim CLM-83874 on 2026-01-27.",billing,billing-7,test
+billing-7-14,Please correct the billing charge for claim CLM-95344 on 2026-04-25.,billing,billing-7,test
+billing-7-15,Please help: Please correct the billing charge for claim CLM-94136 on 2026-05-16.,billing,billing-7,test
+billing-7-16,Please help: Please correct the billing charge for claim CLM-19564 on 2026-12-02.,billing,billing-7,test
+billing-7-17,Please help: Please correct the billing charge for claim CLM-70875 on 2026-04-11.,billing,billing-7,test
+eligibility-0-0,Question: Is my membership active for the service date 2026-07-05?,eligibility,eligibility-0,train
+eligibility-0-1,Is my membership active for the service date 2026-02-09?,eligibility,eligibility-0,train
+eligibility-0-2,Is my membership active for the service date 2026-05-13?,eligibility,eligibility-0,train
+eligibility-0-3,Please help: Is my membership active for the service date 2026-12-11?,eligibility,eligibility-0,train
+eligibility-0-4,"Hello, Is my membership active for the service date 2026-05-16?",eligibility,eligibility-0,train
+eligibility-0-5,Question: Is my membership active for the service date 2026-04-19?,eligibility,eligibility-0,train
+eligibility-0-6,Is my membership active for the service date 2026-10-27?,eligibility,eligibility-0,train
+eligibility-0-7,Question: Is my membership active for the service date 2026-07-05?,eligibility,eligibility-0,train
+eligibility-0-8,Please help: Is my membership active for the service date 2026-07-02?,eligibility,eligibility-0,train
+eligibility-0-9,Is my membership active for the service date 2026-07-17?,eligibility,eligibility-0,train
+eligibility-0-10,Question: Is my membership active for the service date 2026-02-13?,eligibility,eligibility-0,train
+eligibility-0-11,Is my membership active for the service date 2026-04-20?,eligibility,eligibility-0,train
+eligibility-0-12,Is my membership active for the service date 2026-12-11?,eligibility,eligibility-0,train
+eligibility-0-13,Please help: Is my membership active for the service date 2026-10-11?,eligibility,eligibility-0,train
+eligibility-0-14,Is my membership active for the service date 2026-06-17?,eligibility,eligibility-0,train
+eligibility-0-15,"Hello, Is my membership active for the service date 2026-06-22?",eligibility,eligibility-0,train
+eligibility-0-16,Is my membership active for the service date 2026-01-20?,eligibility,eligibility-0,train
+eligibility-0-17,Please help: Is my membership active for the service date 2026-10-16?,eligibility,eligibility-0,train
+eligibility-1-0,"Hello, I need to confirm coverage after adding a dependent to my plan.",eligibility,eligibility-1,train
+eligibility-1-1,I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-2,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-3,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-4,Question: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-5,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-6,Question: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-7,I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-8,"Hello, I need to confirm coverage after adding a dependent to my plan.",eligibility,eligibility-1,train
+eligibility-1-9,Question: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-10,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-11,"Hello, I need to confirm coverage after adding a dependent to my plan.",eligibility,eligibility-1,train
+eligibility-1-12,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-13,I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-14,"Hello, I need to confirm coverage after adding a dependent to my plan.",eligibility,eligibility-1,train
+eligibility-1-15,Please help: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-16,Question: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-1-17,Question: I need to confirm coverage after adding a dependent to my plan.,eligibility,eligibility-1,train
+eligibility-2-0,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-1,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-2,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-3,"Hello, When does enrollment become effective for my insurance policy?",eligibility,eligibility-2,train
+eligibility-2-4,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-5,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-6,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-7,When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-8,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-9,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-10,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-11,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-12,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-13,Please help: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-14,When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-15,Question: When does enrollment become effective for my insurance policy?,eligibility,eligibility-2,train
+eligibility-2-16,"Hello, When does enrollment become effective for my insurance policy?",eligibility,eligibility-2,train
+eligibility-2-17,"Hello, When does enrollment become effective for my insurance policy?",eligibility,eligibility-2,train
+eligibility-3-0,Please help: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-1,"Hello, My employer changed plans; am I still eligible for benefits?",eligibility,eligibility-3,train
+eligibility-3-2,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-3,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-4,Question: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-5,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-6,"Hello, My employer changed plans; am I still eligible for benefits?",eligibility,eligibility-3,train
+eligibility-3-7,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-8,Question: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-9,Question: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-10,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-11,Please help: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-12,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-13,My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-14,Please help: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-15,Please help: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-3-16,"Hello, My employer changed plans; am I still eligible for benefits?",eligibility,eligibility-3,train
+eligibility-3-17,Please help: My employer changed plans; am I still eligible for benefits?,eligibility,eligibility-3,train
+eligibility-4-0,"Hello, Can you verify my insurance status before the visit on 2026-10-20?",eligibility,eligibility-4,train
+eligibility-4-1,Question: Can you verify my insurance status before the visit on 2026-04-28?,eligibility,eligibility-4,train
+eligibility-4-2,Can you verify my insurance status before the visit on 2026-12-04?,eligibility,eligibility-4,train
+eligibility-4-3,Question: Can you verify my insurance status before the visit on 2026-04-18?,eligibility,eligibility-4,train
+eligibility-4-4,Question: Can you verify my insurance status before the visit on 2026-11-12?,eligibility,eligibility-4,train
+eligibility-4-5,Can you verify my insurance status before the visit on 2026-02-26?,eligibility,eligibility-4,train
+eligibility-4-6,Please help: Can you verify my insurance status before the visit on 2026-07-02?,eligibility,eligibility-4,train
+eligibility-4-7,Can you verify my insurance status before the visit on 2026-10-19?,eligibility,eligibility-4,train
+eligibility-4-8,Please help: Can you verify my insurance status before the visit on 2026-04-13?,eligibility,eligibility-4,train
+eligibility-4-9,Can you verify my insurance status before the visit on 2026-08-24?,eligibility,eligibility-4,train
+eligibility-4-10,Can you verify my insurance status before the visit on 2026-03-24?,eligibility,eligibility-4,train
+eligibility-4-11,"Hello, Can you verify my insurance status before the visit on 2026-01-27?",eligibility,eligibility-4,train
+eligibility-4-12,"Hello, Can you verify my insurance status before the visit on 2026-11-08?",eligibility,eligibility-4,train
+eligibility-4-13,"Hello, Can you verify my insurance status before the visit on 2026-08-12?",eligibility,eligibility-4,train
+eligibility-4-14,Can you verify my insurance status before the visit on 2026-01-18?,eligibility,eligibility-4,train
+eligibility-4-15,Can you verify my insurance status before the visit on 2026-05-01?,eligibility,eligibility-4,train
+eligibility-4-16,Please help: Can you verify my insurance status before the visit on 2026-03-08?,eligibility,eligibility-4,train
+eligibility-4-17,Can you verify my insurance status before the visit on 2026-02-12?,eligibility,eligibility-4,train
+eligibility-5-0,"Hello, My member card expired; please check my coverage eligibility.",eligibility,eligibility-5,validation
+eligibility-5-1,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-2,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-3,Please help: My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-4,"Hello, My member card expired; please check my coverage eligibility.",eligibility,eligibility-5,validation
+eligibility-5-5,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-6,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-7,Question: My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-8,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-9,Question: My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-10,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-11,"Hello, My member card expired; please check my coverage eligibility.",eligibility,eligibility-5,validation
+eligibility-5-12,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-13,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-14,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-15,Question: My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-16,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-5-17,My member card expired; please check my coverage eligibility.,eligibility,eligibility-5,validation
+eligibility-6-0,Please help: Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-1,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-2,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-3,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-4,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-5,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-6,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-7,"Hello, Does my dependent qualify under the current policy enrollment?",eligibility,eligibility-6,test
+eligibility-6-8,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-9,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-10,Please help: Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-11,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-12,"Hello, Does my dependent qualify under the current policy enrollment?",eligibility,eligibility-6,test
+eligibility-6-13,"Hello, Does my dependent qualify under the current policy enrollment?",eligibility,eligibility-6,test
+eligibility-6-14,Question: Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-15,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-16,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-6-17,Does my dependent qualify under the current policy enrollment?,eligibility,eligibility-6,test
+eligibility-7-0,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-1,"Hello, Please confirm the termination date for my health plan membership.",eligibility,eligibility-7,test
+eligibility-7-2,Please help: Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-3,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-4,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-5,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-6,"Hello, Please confirm the termination date for my health plan membership.",eligibility,eligibility-7,test
+eligibility-7-7,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-8,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-9,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-10,Please help: Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-11,Question: Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-12,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-13,Please help: Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-14,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-15,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-16,Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
+eligibility-7-17,Please help: Please confirm the termination date for my health plan membership.,eligibility,eligibility-7,test
