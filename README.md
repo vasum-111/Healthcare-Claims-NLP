@@ -2,6 +2,8 @@
 
 **Route synthetic member messages, compare a baseline with BERT, and make the errors visible.**
 
+[![Tests and Docker build](https://github.com/vasum-111/healthcare-claims-nlp/actions/workflows/ci.yml/badge.svg)](https://github.com/vasum-111/healthcare-claims-nlp/actions/workflows/ci.yml)
+
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?style=flat)
 ![Synthetic data](https://img.shields.io/badge/Data-synthetic-087F7B?style=flat)
 ![License MIT](https://img.shields.io/badge/License-MIT-54657A?style=flat)
@@ -143,9 +145,10 @@ docker build -t claims-signal-lab .
 docker run --rm -p 8000:8000 claims-signal-lab
 ```
 
-The image serves the baseline; BERT is an explicit experiment. Docker was unavailable
-locally, so build/run is unverified. Standard CI runs tests and builds the image; a manual
-workflow runs the BERT comparison and uploads results. Neither has run on GitHub yet.
+The image serves the baseline; BERT is an explicit experiment.
+[GitHub Actions passed the tests and Docker image build](https://github.com/vasum-111/healthcare-claims-nlp/actions/runs/43530979089) on 13 November 2026.
+Container startup has not been tested in Docker; the API and browser flow were verified locally.
+The manual BERT workflow is available but has not been dispatched; the recorded BERT experiment ran locally.
 
 ## Limits and next experiments
 
